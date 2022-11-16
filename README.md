@@ -21,5 +21,4 @@ theres no specific theme for this site.
 
 ###### ---------------------------------------------------------
 
-Got the proxy from
-https://github.com/joshdick/
+slaytheweb is fron https://github.com/oskarrough/slaytheweb
