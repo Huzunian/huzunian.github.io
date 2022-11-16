@@ -22,3 +22,4 @@ theres no specific theme for this site.
 ###### ---------------------------------------------------------
 
 slaytheweb is fron https://github.com/oskarrough/slaytheweb
+cookieclicker is from https://github.com/ozh/cookieclicker
