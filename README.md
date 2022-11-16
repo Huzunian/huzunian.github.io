@@ -15,6 +15,8 @@ On this site I:
 
 - Share projects im working on.
 
+- Add games from others.
+
 And just general coding things,
 
 theres no specific theme for this site.
