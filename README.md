@@ -27,5 +27,6 @@ theres no specific theme for this site.
 - https://github.com/ozh/cookieclicker
 - https://github.com/CamHenlin/Roguish
 - https://github.com/FogNetwork/Avo
+- https://github.com/buckslice/buckslice.github.io
 - https://github.com/buckslice/statlord
 - https://scratch.mit.edu/projects/550426444/
