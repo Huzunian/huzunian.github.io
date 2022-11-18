@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/icons/planet.ico">
+
+    <title>Statacus</title>
+
+	<link href="/mystyle.css" rel="stylesheet">
+	
+	<script src="/projects/statacus/UnityLoader.js"></script>
+	<script>
+	var gameInstance = null
+	function runUnityLoader(){
+		gameInstance = UnityLoader.instantiate("gameContents", "/projects/statacus/statacus.json");
+	}
+	</script>
+	
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TC4FMXD');</script>
+<!-- End Google Tag Manager -->
+
+	
+  </head>
+ 
+  <body>  	
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC4FMXD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="nav"><ul>
+	<li><a href="/">Home</a></li>
+	<li><a href="/archive">Archive</a></li>
+	<li class="rFloat"><a href="/about">About</a></li>
+</ul></div>
+	<div class="content">
+	
+	<h1>Statacus</h1>
+	
+	<div id="gameContainer">
+		<div id="gameContents">
+		<button type="button" onclick="runUnityLoader();">Play</button>
+		</div>
+		<div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+	</div>
+	
+	<h3>Overview</h3>
+	<p>
+		Statacus was built during the Video Game Development Club's 2016 winter game jam at UCI. The theme was "There's never enough", so we made an action RPG where there are never enough stat upgrade options. You start with the same 3 basic stats, but as you beat each level you unlock a new random stat. Beware as there are some troll stats that don't aid you at all in battle. Haha!
+	</p>
+	<h3>What I Learned</h3>
+	<p>
+		It was my first time making a stat system and it was really fun thinking of all the stats and then integrating them into the gameplay calculations. Between the stats combined with the scaling waves of enemies I quickly learned how hard and complicated it was to balance these kind of games. I spent tons of time towards the end of the jam tweaking and changing the parameters for how many enemies each wave spawned and at what frequencies, and also things like how much a stat should be upgraded when you spend a point in it. It was very time intensive, but fun trying to balance it all. I think we were successful here, because there were many different viable strategies players used to beat the game so thats pretty cool.
+
+		Overall this game turned out to be very fun and we ended up winning first place at the jam!
+	</p>
+	
+	<div class="linkm">
+		<a class="link" href="https://github.com/buckslice/statlord">Github Project</a>
+	</div>
+
+	</div>
+	<footer>
+Copyright ©️ John F. Collins III 2021
+	</footer>
+
+  </body>
+</html>
