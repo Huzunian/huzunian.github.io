@@ -33,6 +33,8 @@ theres no specific theme for this site.
 - https://github.com/minhaskamal/DownGit
 - https://github.com/Icehawk78/FrozenCookies
 - https://github.com/Augusto-ALN/battle-pokemon-clone
+- https://github.com/download-directory/download-directory.github.io
+- https://github.com/oskarrough/webhealer/tree/main/public
 
 ###### 0 255 0
 ###### 0 175 0
