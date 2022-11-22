@@ -1,26 +1,35 @@
----------------------------------------------------------
+# Roguish Readme
 
-Huzunian.Github.Io
+## How to play latest demo
+Go to [the demo site](http://henlin.org/roguish/)
 
----------------------------------------------------------
+## How to clone and play locally
 
+### On Macintosh and Linux
+Open a terminal and run the commands:
 
-The source code for my site.
+```bash
+git clone https://github.com/CamHenlin/roguish.git
 
-On this site I:
+cd roguish
 
-- Add games that i've created.
+python -m SimpleHTTPServer 8000
 
-- Share cool things from my friends.
+```
 
-- Share projects im working on.
+And then point your favorite web browser at [http://localhost:8000](http://localhost:8000) or [http://localhost:8000/devindex.html](http://localhost:8000/devindex.html)
 
-- Add games from others.
+## How to build a new game.min.js after modifying game code
 
-And just general coding things,
+### On Macintosh and Linux
+Open a terminal and run the commands:
 
-theres no specific theme for this site.
+```bash
+git clone https://github.com/CamHenlin/roguish.git
 
----------------------------------------------------------
+cd roguish/build
 
-0 255 0, 0 175 0
+./build.sh
+```
+
+#### For further instructions, see documentation on Roguish Assembla page!
