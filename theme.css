@@ -1,28 +1,28 @@
-h1 {
+.h1 {
   color: #00FF00;
 }
-h2 {
+.h2 {
   color: #00FF00;
 }
-h3 {
+.h3 {
   color: #00FF00;
 }
-h4 {
+.h4 {
   color: #00FF00;
 }
-h5 {
+.h5 {
   color: #00FF00;
 }
-h6 {
+.h6 {
   color: #00FF00;
 }
-p {
+.p {
   color: #00FF00;
 }
-a {
+.a {
   color: #00FF00;
 }
-body {
+.body {
   background-image: background: url(https://huzunian.github.io/background.png);
 }
 
