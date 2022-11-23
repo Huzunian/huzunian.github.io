@@ -29,7 +29,7 @@ a:active {
   color: #5cf4ff;
 }
 a:visited {
-  color: #00FF00;
+  color: #5cf4ff;
 }
 body {
   border: 5px solid rgba(0, 255, 0, 1);
@@ -55,22 +55,22 @@ body {
   overflow: hidden;
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 150%;
 }
 .navbar a {
   float: left;
   display: block;
-  color: #00FF00;
+  color: #5cf4ff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 .navbar a:hover {
-  background-color: #00FF00;
-  color: #00FF00;
+  background-color: #5cf4ff;
+  color: #000000;
 }
 .navbar a.active {
-  background-color: #00FF00;
-  color: #00FF00;
+  background-color: #5cf4ff;
+  color: #000000;
 }
