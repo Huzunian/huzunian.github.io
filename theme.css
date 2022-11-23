@@ -35,8 +35,7 @@ body {
 @keyframes cssAnimation_0 {
   from {
     border: 5px solid rgba(0, 255, 0, 1); border-radius: 15px;
-  }
-  
+  }  
   to {
     border: 1px solid rgba(0, 175, 0, 1);
     border-radius: 15px;
