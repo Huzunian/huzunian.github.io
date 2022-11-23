@@ -25,7 +25,8 @@ a {
 body {
   cursor: crosshair;
   color: #00FF00;
-  border: 7px outset #00FF00;
+  border: 10px solid #00FF00;
+  border-radius: 20px;
   background: #000000 url(https://huzunian.github.io/background.png) center center/cover no-repeat fixed;
 }
 
