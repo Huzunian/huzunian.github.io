@@ -23,7 +23,5 @@ a {
   color: #00FF00;
 }
 body {
-  color: #00FF00;
-  background-image: url("https://huzunian.github.io/background.png/");
-  background-color: #000000;
+  background-image: url("background.png/");
 }
