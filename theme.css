@@ -31,9 +31,34 @@ a:active {
 a:visited {
   color: #00FF00;
 }
+.navbar {
+  background-color: #000000;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: inline-block;
+  color: #5cf4ff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: #5cf4ff;
+  color: #000000;
+}
+.navbar a:active {
+  background-color: #5cf4ff;
+  color: #000000;
+}
 body {
   border: 5px solid rgba(92, 244, 255, 1);
   border-radius: 15px;
+  box-sizing: border-box;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.3);
   text-shadow: 2px 1px 0px rgba(63, 164, 171, 0.3);
   animation: cssAnimation_0 3000ms 10 ease-in-out;
@@ -49,28 +74,4 @@ body {
     border: 1px solid rgba(63, 164, 171, 1);
     border-radius: 15px;
   }
-}
-navbar {
-  background-color: #000000;
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 150%;
-}
-navbar a {
-  float: right;
-  display: block;
-  color: #5cf4ff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-navbar a:hover {
-  background-color: #5cf4ff;
-  color: #000000;
-}
-navbar a.active {
-  background-color: #5cf4ff;
-  color: #000000;
 }
