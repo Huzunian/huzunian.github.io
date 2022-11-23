@@ -58,7 +58,7 @@ navbar {
   width: 150%;
 }
 navbar a {
-  float: initial;
+  float: right;
   display: block;
   color: #5cf4ff;
   text-align: center;
