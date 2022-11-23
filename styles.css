@@ -23,8 +23,22 @@ a {
   color: #00FF00;
 }
 body {
+  border: 5px solid rgba(0, 255, 0, 1);
+  border-radius: 15px;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 1px 0px rgba(0, 175, 0, 0.3);
+  animation: cssAnimation_0 3000ms 10 ease-in-out;
   cursor: crosshair;
   color: #00FF00;
   background: #000000 url(https://huzunian.github.io/background.png) center center/cover no-repeat fixed;
 }
-
+@keyframes cssAnimation_0 {
+  from {
+    border: 5px solid rgba(0, 255, 0, 1); border-radius: 15px;
+  }
+  
+  to {
+    border: 1px solid rgba(0, 175, 0, 1);
+    border-radius: 15px;
+  }
+}
