@@ -25,6 +25,5 @@ a {
 body {
   color: #00FF00
 }
-body {
-  background-color: #000000;
+    background: url(/background.webp) no-repeat;
 }
