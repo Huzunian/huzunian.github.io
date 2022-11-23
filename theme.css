@@ -50,3 +50,27 @@ body {
     border-radius: 15px;
   }
 }
+.navbar {
+  background-color: #000000;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #00FF00;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: #00FF00;
+  color: #00FF00;
+}
+.navbar a.active {
+  background-color: #00FF00;
+  color: #00FF00;
+}
