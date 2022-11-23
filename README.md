@@ -1,3 +1,2 @@
-### huzunian.github.io
-- This repo uses the
+## huzunian.github.io
 [ - - GNU LICENSE - - ]
