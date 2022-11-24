@@ -34,7 +34,7 @@ a:visited {
 .navbar {
   background-color: #000000;
   overflow: hidden;
-  position: fixed;
+  position: relative;
   right: 0;
   width: 100%;
 }
