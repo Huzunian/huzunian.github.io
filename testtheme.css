@@ -73,3 +73,20 @@ body {
     border: 2px solid rgba(63, 164, 171, 1);
   }
 }
+.hackkitmenutest {
+  height: 160px;
+  width: 80px;
+  background-color: #000;
+  color: red;
+  float: left;
+  font-family: arial,sans,verdana;
+  font-size: 12px;
+  z-index: 10000;
+  display: inline-block;
+  line-height: unset!important;
+  line-height: 1!important;
+  overflow: visible;
+  position: fixed;
+  top: 0;
+  padding: 2px 5px;
+}
