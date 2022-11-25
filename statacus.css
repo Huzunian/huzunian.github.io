@@ -8,14 +8,6 @@
 	box-sizing: border-box;
 }
 
-:root {
-	--bg-color : #272727;
-	--fg-color : #000000; 
-	--accent-color : #FFF1AF;
-	--text-color : #EEEEEE; 
-	--button-color : #006622;
-}
-
 .scrt{
 	color:#FFCCCC;
 }
@@ -61,7 +53,6 @@ body, button {
 }
 
 body {
-	background-color: var(--bg-color);
 	/*background-image: url("swage.gif");
 	background-repeat: repeat;
 	background-size: 200px 200px;*/
