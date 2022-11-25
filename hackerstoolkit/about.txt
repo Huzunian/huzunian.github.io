@@ -1,1 +1,5 @@
-This kit is a collection of useful ethical hacking chrome extensions and links to pages that could also be useful.
+Kit Contains:
+- Ethical Hacking Tools
+- QOL Tools for Hacking
+- Script Kiddie Tools
+- Useful Page Links
