@@ -75,18 +75,18 @@ body {
   }
 }
 .gnulicense a:link {
-  color: #00FF00;
+  color: #5cf4ff;
   font-size: 20px;
 }
 .gnulicense a:hover {
-  color: #FF00FF;
+  color: #00FF00;
   font-size: 20px;
 }
 .gnulicense a:active {
-  color: #FF00FF;
+  color: #00FF00;
   font-size: 20px;
 }
 .gnulicense a:visited {
-  color: #00FF00;
+  color: #5cf4ff;
   font-size: 20px;
 }
