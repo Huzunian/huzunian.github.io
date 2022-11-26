@@ -1,3 +1,46 @@
+const converted = {
+  ".dropdown": { position: "relative", display: "inline-block" },
+  ".dropdown-toggle::after": {
+    content: "''",
+    display: "inline-block",
+    marginLeft: "5px",
+    verticalAlign: "3px",
+    borderTop: "4px solid",
+    borderRight: "4px solid transparent",
+    borderLeft: "4px solid transparent"
+  },
+  ".dropdown-menu": {
+    position: "absolute",
+    opacity: 0,
+    visibility: "hidden",
+    transition: "opacity 0.3s ease-in-out, visibility 0.3s ease-in-out",
+    top: "100%",
+    left: "0",
+    zIndex: 999,
+    border: "1px solid rgba(0, 0, 0, 0.15)",
+    borderRadius: "4px",
+    backgroundColor: "#fff",
+    minWidth: "100%",
+    padding: "10px 0"
+  },
+  ".dropdown-menu--active": { opacity: 1, visibility: "visible" },
+  ".dropdown-menu__link": {
+    display: "block",
+    margin: "0",
+    padding: ["0", "7px 10px"],
+    width: "100%",
+    backgroundColor: "transparent",
+    border: "none",
+    textDecoration: "none",
+    color: "black"
+  },
+  ".dropdown-menu__link--active": {
+    backgroundColor: "rgba(0, 0, 0, 0.5) !important"
+  },
+  ".dropdown-menu__link:hover": { backgroundColor: "rgba(0, 0, 0, 0.05)" }
+}
+
+
 (function dropdown() {
 	const triggers = document.querySelectorAll('[data-dd-target]');
 
