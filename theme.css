@@ -73,3 +73,15 @@ body {
     border: 2px solid rgba(63, 164, 171, 1);
   }
 }
+.gnulicense a:link {
+  color: #0f0;
+}
+.gnulicense a:hover {
+  color: #f0f;
+}
+.gnulicense a:active {
+  color: #f0f;
+}
+.gnulicense a:visited {
+  color: #0f0;
+}
