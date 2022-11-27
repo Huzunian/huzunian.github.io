@@ -1,5 +1,0 @@
-Kit Contains:
-- Ethical Hacking Tools
-- QOL Tools for Hacking
-- Script Kiddie Tools
-- Useful Page Links
