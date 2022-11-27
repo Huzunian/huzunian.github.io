@@ -2,7 +2,7 @@ Extension Downloader
 https://standaloneinstaller.com/online-tools/crx-downloader
 Avo Dev Tools
 https://huzunian.github.io/avo/
-Avo Dev Tools
-https://huzunian.github.io/downgit/
-Avo Dev Tools
+Directory Download
 https://huzunian.github.io/ddirect/
+Repo Download
+https://huzunian.github.io/downgit/
