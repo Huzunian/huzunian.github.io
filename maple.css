@@ -1,32 +1,29 @@
 <style>
 
 h1 {
-  color: #000000;
+  color: #ff007f;
 }
 
 body {
-  color: #000000;
+  color: #ff007f;
 }
 
 
 a:link {
-  color: #000000;
+  color: #ff007f;
 }
 
-a:link {
-  color: black; 
-}
 
 a:visited {
-  color: black;
+  color: #ff007f;
 }
 
 a:hover {
-  color: black;
+  color: #ff007f;
 }
 
 a:active {
-  color: black;
+  color: #ff007f;
 }
 
 h1 {
@@ -39,7 +36,7 @@ body {
 
 body {
   cursor: pointer;
-  background: #000000 url(https://mapleleaf1130.github.io/2A7C4306-86F2-4EC4-B561-AB54D327138F.jpeg) center center/cover no-repeat fixed;
+  background: #000000 url(https://huzunian.github.io/maple/background.jpeg) center center/cover no-repeat fixed;
 }
 
 </style>
