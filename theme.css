@@ -36,6 +36,22 @@ a:active {
 a:visited {
   color: #00FF00;
 }
+.linkright a:link {
+  color: #00FF00;
+  text-align: right;
+}
+.linkright a:hover {
+  color: #5cf4ff;
+  text-align: right;
+}
+.linkright a:active {
+  color: #5cf4ff;
+  text-align: right;
+}
+.linkright a:visited {
+  color: #00FF00;
+  text-align: right;
+}
 .navbar {
   background-color: #000000;
   overflow: hidden;
