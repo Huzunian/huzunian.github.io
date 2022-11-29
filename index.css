@@ -24,15 +24,19 @@ p {
 }
 a:link {
   color: #00FF00;
+  font-size: 24px;
 }
 a:hover {
   color: #5cf4ff;
+  font-size: 24px;
 }
 a:active {
   color: #5cf4ff;
+  font-size: 24px;
 }
 a:visited {
   color: #00FF00;
+  font-size: 24px;
 }
 .navbar {
   background-color: #000000;
