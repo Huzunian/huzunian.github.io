@@ -1,0 +1,3 @@
+Avo
+
+javascript:(function%20()%20%7Bvar%20a%20=%20document.createElement('script');a.src%20=%20'https://cdn.jsdelivr.net/gh/FogNetwork/Avo/avo.min.js';document.body.appendChild(a);%7D())
