@@ -1,10 +1,6 @@
 Extension Downloader
 https://standaloneinstaller.com/online-tools/crx-downloader
-Avo Dev Tools
-https://huzunian.github.io/avo/
 Artoo
 https://medialab.github.io/artoo/quick_start/
-Directory Download
-https://huzunian.github.io/ddirect/
 Repo Download
 https://huzunian.github.io/downgit/
