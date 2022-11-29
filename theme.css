@@ -34,7 +34,7 @@ a:active {
 a:visited {
   color: #00FF00;
 }
-.frogr {
+a.frogr {
   text-align: right;
 }
 .navbar {
