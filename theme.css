@@ -1,10 +1,8 @@
 h1 {
   color: #00FF00;
-  text-align: center;
 }
 h2 {
   color: #00FF00;
-  text-align: center;
 }
 .indextop {
   text-align: center;
@@ -36,20 +34,7 @@ a:active {
 a:visited {
   color: #00FF00;
 }
-.linkright a:link {
-  color: #00FF00;
-  text-align: right;
-}
-.linkright a:hover {
-  color: #5cf4ff;
-  text-align: right;
-}
-.linkright a:active {
-  color: #5cf4ff;
-  text-align: right;
-}
-.linkright a:visited {
-  color: #00FF00;
+.linkright {
   text-align: right;
 }
 .navbar {
