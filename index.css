@@ -76,11 +76,11 @@ body {
     border: 2px solid rgba(63, 164, 171, 1);
   }
 }
-.left {
+.frogl {
   float:left;
   text-align:left;
 }
-.right {
+.frogr {
   float:right;
   text-align:right;
 }
