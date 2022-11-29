@@ -34,22 +34,6 @@ a:active {
 a:visited {
   color: #00FF00;
 }
-a:link.frogr {
-  text-align: right;
-  color: #00FF00;
-}
-a:hover.frogr {
-  text-align: right;
-  color: #5cf4ff;
-}
-a:active.frogr {
-  text-align: right;
-  color: #5cf4ff;
-}
-a:visited.frogr {
-  text-align: right;
-  color: #00FF00;
-}
 .navbar {
   background-color: #000000;
   overflow: hidden;
