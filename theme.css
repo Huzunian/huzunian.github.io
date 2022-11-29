@@ -79,16 +79,20 @@ body {
 .gnulicense a:link {
   color: #5cf4ff;
   text-align: center;
+  float: center;
 }
 .gnulicense a:hover {
   color: #00FF00;
   text-align: center;
+  float: center;
 }
 .gnulicense a:active {
   color: #00FF00;
   text-align: center;
+  float: center;
 }
 .gnulicense a:visited {
   color: #5cf4ff;
   text-align: center;
+  float: center;
 }
