@@ -7,9 +7,6 @@ h2 {
 .frogm {
   text-align: center;
 }
-.frogm2 {
-  text-align: center;
-}
 h3 {
   color: #00FF00;
 }
@@ -81,13 +78,17 @@ body {
 }
 .gnulicense a:link {
   color: #5cf4ff;
+  text-align: center;
 }
 .gnulicense a:hover {
   color: #00FF00;
+  text-align: center;
 }
 .gnulicense a:active {
   color: #00FF00;
+  text-align: center;
 }
 .gnulicense a:visited {
   color: #5cf4ff;
+  text-align: center;
 }
