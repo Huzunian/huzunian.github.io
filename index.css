@@ -76,3 +76,11 @@ body {
     border: 2px solid rgba(63, 164, 171, 1);
   }
 }
+.left {
+  float:left;
+  text-align:left;
+}
+.right {
+  float:right;
+  text-align:right;
+}
