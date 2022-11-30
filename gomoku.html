@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gomoku</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<style>
+	body, html {
+		background-color: #DDD39F;
+	}
+	#board {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+</style>
+<body>
+	<canvas id="board" width="480" height="480"></canvas>
+<script>
+	var game = true;
+	document.addEventListener("click", addPiece);
+	var p = 0;
+	var tokens = ["white","black"];
+	var board = [];
+	for (var i=0; i<15; i++){
+		board.push([]);
+		for (var j=0; j<15; j++){
+			board[i].push(-1);
+		}
+	}
+	var c = document.getElementById("board");
+	var ctx = c.getContext("2d");
+	for (var i=0; i<15; i++){
+		ctx.beginPath();
+		ctx.moveTo(30*i+30, 30);
+		ctx.lineTo(30*i+30, 450);
+		ctx.stroke();
+		ctx.beginPath();
+		ctx.moveTo(30, 30*i+30);
+		ctx.lineTo(450, 30*i+30);
+		ctx.stroke();
+	}
+	function advance(){
+		if (p === 1){
+			p = 0;
+		}
+		else {
+			p = 1;
+		}
+		checkWinner();
+	}
+	
+	function addPiece(e){
+		var x = 30*(Math.round((e.pageX-(window.innerWidth-420)/2)/30.0))+30;
+		var y = 30*(Math.round((e.pageY-(window.innerHeight-420)/2)/30.0))+30;
+		var row = (y-30)/30 - 1;
+		var col = (x-30)/30 - 1;
+		if (board[row][col] != -1){
+			alert("A token has already been placed here!");
+		}
+		else {
+			ctx.beginPath();
+			ctx.fillStyle = tokens[p];
+			ctx.arc(x,y,10,0,2*Math.PI);
+			ctx.fill();
+			board[row][col] = p;
+			advance();
+		}
+	}
+	
+	function checkWinner(){
+		for (var i=0; i<15; i++){
+			for (var j=0; j<10; j++){
+				var z = board[i][j];
+				var y = board[j][i]
+				if (z != -1 && ((z === board[i][j+1] && z === board[i][j+2] && z === board[i][j+3] && z === board[i][j+4]) || (i<=10 && z != -1 && z === board[i+1][j+1] && z === board[i+2][j+2] && z === board[i+3][j+3] && z === board[i+4][j+4]))){
+					p = z;
+					game = false;
+					break;
+				}
+				else if (y != -1 && ((y === board[j+1][i] && y === board[j+2][i] && y === board[j+3][i] && y === board[j+4][i]) || (i>=4 && y != -1 && y === board[j+1][i-1] && y === board[j+2][i-2] && y === board[j+3][i-3] && y === board[j+4][i-4]))){
+					p = y;
+					game = false;
+					break;
+				}
+			}
+			if (!game){
+				break;
+			}
+		}
+		if (!game){
+			document.removeEventListener("click", addPiece);
+			setTimeout(function(){alert("Player " + (p+1) + " wins!");},10);
+		}
+	}
+</script>
+</body>
+</html>
