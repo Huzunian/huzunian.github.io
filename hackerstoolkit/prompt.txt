@@ -1,0 +1,1 @@
+javascript:function%20JSexe()%7B%20if(valJS!='null'%20&&%20valJS!='undefined')strJS=valJS;%20strJS=prompt('Your%20Javascript%20code%20or%20variable:',strJS);%20if(strJS!=null%20&&%20strJS!=''%20&&%20strJS!='undefined')%7B%20%20setTimeout('valJS=%5C'%5C'+eval(strJS);JSexe()',10);%20%7D%20else%7BvalJS='';strJS='';%7D%7DvalJS='';strJS='';JSexe();
