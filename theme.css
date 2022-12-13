@@ -68,12 +68,3 @@ body {
   color: #00FF00;
   background: #000000 url(https://huzunian.github.io/background.png) center center/cover no-repeat fixed;
 }
-@keyframes cssAnimation_0 {
-  from {
-    border: 7px solid rgba(92, 244, 255, 1);
-  }  
-  to {
-    border: 2px solid rgba(63, 164, 171, 1);
-  }
-}
-
