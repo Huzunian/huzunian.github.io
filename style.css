@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #000000;
+  overflow: hidden;
+  position: relative;
+  right: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: inline-block;
+  color: #5cf4ff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: #5cf4ff;
+  color: #000000;
+}
+.navbar a:active {
+  background-color: #5cf4ff;
+  color: #000000;
+}
+.navbar p {
+  background-color: #000000;
+  color: #00ff00;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+body {
+  border: 7px solid rgba(92, 244, 255, 1);
+  background: #000000
+}
