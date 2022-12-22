@@ -1,8 +1,3 @@
-<html>
-<head>
-</head>
-<body>
-
 <?php
 
 define('PROXY_START', microtime(true));
@@ -138,8 +133,3 @@ try {
 
     }
 }
-
-?>
-
-</body>
-</html>
