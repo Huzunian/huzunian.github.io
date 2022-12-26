@@ -11,6 +11,10 @@ function pageLoader() {
 	var pageName = prompt("Enter Directory Here (example: /minecraft)");
 	document.body.innerHTML = '<iframe src="https://huzunian.github.io' + pageName +'" style="position:fixed;top:0;bottom:0;left:0;right:0;width:100%;height:100%;border:none;margin:0;padding:0;z-index:999999;">Aww man! You gotta use the gui!</iframe>';
 }
+function ezBypass() {
+	var bypassSite = prompt("Enter Site Here (example: google.com)");
+	document.body.innerHTML = '<iframe src="https://' + bypassSite +'" style="position:fixed;top:0;bottom:0;left:0;right:0;width:100%;height:100%;border:none;margin:0;padding:0;z-index:999999;">Aww man! You gotta use the gui!</iframe>';
+}
 </script>
 </head>
 <div class=navbar>
@@ -24,6 +28,7 @@ function pageLoader() {
 <p>Tech</p>
 <a href="/downgit/#/home?url=https:%2F%2Fgithub.com%2FHuzunian%2Fhuzunian.github.io%2Ftree%2Fmain%2Fhackerstoolkit">hToolkit</a>
 <a onclick="frogFinder()">pFrogTank</a>
+<a onclick="ezBypass()">iFrameBypass</a>
 </div>
 <div class=navbar>
 <p>PokeAdv</p>
@@ -52,6 +57,13 @@ function pageLoader() {
 <a href="https://crep1x.github.io">sCopy1</a>
 <a href="https://mirrorfrog.github.io">sCopy2</a>
 <a href="https://poggingfrog.github.io">sCopy3</a>
+</div>
+<div class=navbar>
+<p>HackerTyper</p>
+<a href="/hackertyper1">1</a>
+<a href="/hackertyper2">2</a>
+<a href="/hackertyper3">3</a>
+<a href="/hackertyper4">4</a>
 </div>
 </body>
 </html>
