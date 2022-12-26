@@ -4,6 +4,7 @@
   position: relative;
   right: 0;
   width: 100%;
+  border: 4px solid rgba(0, 255, 0, 1);
 }
 .navbar a {
   float: left;
@@ -13,14 +14,17 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  border: 2px solid rgba(92, 244, 255, 1);
 }
 .navbar a:hover {
   background-color: #5cf4ff;
   color: #000000;
+  border: 2px solid rgba(92, 244, 255, 1);
 }
 .navbar a:active {
   background-color: #5cf4ff;
   color: #000000;
+  border: 2px solid rgba(92, 244, 255, 1);
 }
 .navbar p {
   background-color: #000000;
@@ -30,8 +34,9 @@
   text-decoration: none;
   font-size: 17px;
   padding: 14px 16px;
+  border: 2px solid rgba(92, 244, 255, 1);
 }
 body {
   border: 7px solid rgba(92, 244, 255, 1);
-  background: #000000
+  background: #000000;
 }
