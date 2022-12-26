@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A functional, free, and easy to use web proxy site.">
+        <meta property="og:image" content="/images/degen.png" />
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" crossorigin="anonymous">
+        <link rel="icon" href="images/degeneracy_main_logo.png">
+        <title>Degeneracy | Settings</title>
+    </head>
+    <body onload="javascript:loadPicture()" class="settingsBody">
+        <div class="navbar">
+            <div class="dropDown">
+                <i class="fa-solid fa-bars ddIcon"></i>
+                    <div class="dropdownContent">
+                        <a href="/privacy.html"><i class="fa-solid fa-gavel"></i>Privacy Policy</a>
+                        <a href="/terms.html"><i class="fa-solid fa-gavel"></i>Terms of Service</a>
+                        <a href="https://discord.gg/unblock"><i class="fab fa-discord"></i>Community</a>
+                        <a href="https://github.com/Degen-dev/Degeneracy"><i class="fab fa-github"></i>Repository</a>
+                    </div>
+            </div>
+            <i class="fa fa-home" id="homeButton" onclick="location.href='/choice'"></i>
+            <a href="https://github.com/Degen-dev/Degeneracy/blob/master/README.md#frequently-asked-questions">FAQ</a>
+            <a href="/settings.html">Settings</a>
+        </div>
+        <h1 class="settingsHead">Settings</h1>
+        <img id="pageicon" class="settingsImg">
+        <div>
+            <input class="settingsInput" id="tabtitle" placeholder="Ex: Google Classroom" autocomplete="off"></input><button class="settingsButton" onclick="tabtitle()" name="cloakButton">Title</button><button class="settingsButton" onclick="tabicon()" name="cloakButton">Icon</button><button class="settingsButton" onclick="resetTab()" name="cloakButton"><i class="fa fa-redo-alt"></i></button>
+        </div>
+        <p1 class="settingsP">
+            Here you can set what you want your tab title or icon to be!
+        </p1>
+        <script src="/scripts/main.js"></script>
+    </body>
+</html>
