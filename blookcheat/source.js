@@ -4,7 +4,7 @@ LOADAVO.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Avo/avo.min.js';
 document.body.appendChild(LOADAVO);
 // Loading Message
 console.log('Loading...');
-// Define Functions
+// Define Commands
 function bcjsHelp() {
   console.log('---');
   console.log('Functions');
