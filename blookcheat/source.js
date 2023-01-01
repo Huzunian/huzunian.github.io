@@ -21,7 +21,11 @@ function bcjsHelp() {
   console.log('---');
 }
 function bcjsGui() {
-  document.write('<script type="text/javascript" src="https://raw.githubusercontent.com/Huzunian/Blooket-Cheats/main/obfuscated/Gui.js"></script>');
+  js = document.createElement("bcjs.exec.gui");
+  js.type = "text/javascript"; 
+  js.src = "https://raw.githubusercontent.com/Huzunian/Blooket-Cheats/main/obfuscated/Gui.js";
+document.body.appendChild(js);
+  document.write('<script type="text/javascript" src=""></script>');
 }
 function bcjsMobileGui() {
   document.write('<script type="text/javascript" src="https://raw.githubusercontent.com/Huzunian/Blooket-Cheats/main/obfuscated/mobileGui.js"></script>');
