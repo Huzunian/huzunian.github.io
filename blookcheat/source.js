@@ -1,4 +1,5 @@
 (function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Avo/avo.min.js';document.body.appendChild(a);}())
+console.log('Loading...')
 function bcjsHelp() {
   console.log('---')
   console.log('Functions');
@@ -31,5 +32,6 @@ function bcjsGetDailyRewards() {
 function bcjsEveryAnswerCorrect() {
   document.write('<script type="text/javascript" src="https://raw.githubusercontent.com/Huzunian/Blooket-Cheats/main/obfuscated/global/everyAnswerCorrect.js"></script>');
 }
-
+console.log('Done!')
+console.log('Type bcjsHelp() for help!')
 
