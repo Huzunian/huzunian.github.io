@@ -1,1 +1,0 @@
-javascript:(function()%7Bvar%20BCJS%20%3D%20document.createElement('script')%3BBCJS.src%20%3D%20'https%3A%2F%2Fraw.githubusercontent.com%2Fhuzunian%2Fhuzunian.github.io%2Fmain%2Fblooketchear%2Fsource.js'%3Bdocument.body.appendChild(BCJS)%3B%7D)()%3B
