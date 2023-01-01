@@ -1,5 +1,15 @@
-(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Avo/avo.min.js';document.body.appendChild(a);}())
+// Load Avo Console
+
+var LOADAVO = document.createElement('script');
+LOADAVO.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Avo/avo.min.js';
+document.body.appendChild(LOADAVO);
+
+// Loading Message
+
 console.log('Loading...');
+
+// Define Functions
+
 function bcjsHelp() {
   console.log('---');
   console.log('Functions');
@@ -20,22 +30,13 @@ function bcjsHelp() {
   console.log('Functions');
   console.log('---');
 }
-function bcjsGui() {
-  js = document.createElement("bcjs.exec.gui");
-  js.type = "text/javascript"; 
-  js.src = "https://raw.githubusercontent.com/Huzunian/Blooket-Cheats/main/obfuscated/Gui.js";
-document.body.appendChild(js);
-  document.write('<script type="text/javascript" src=""></script>');
-}
-function bcjsMobileGui() {
-  document.write('<script type="text/javascript" src="https://raw.githubusercontent.com/Huzunian/Blooket-Cheats/main/obfuscated/mobileGui.js"></script>');
-}
-function bcjsGetDailyRewards() {
-  document.write('<script type="text/javascript" src="https://raw.githubusercontent.com/Huzunian/Blooket-Cheats/main/obfuscated/global/getDailyRewards.js"></script>');
-}
-function bcjsEveryAnswerCorrect() {
-  document.write('<script type="text/javascript" src="https://raw.githubusercontent.com/Huzunian/Blooket-Cheats/main/obfuscated/global/everyAnswerCorrect.js"></script>');
-}
-console.log('Done!')
-console.log('Type bcjsHelp() for help!')
+
+function bcjsGui() {bcjsEXEC = document.createElement("script");bcjsEXEC.type = "text/javascript";bcjsEXEC.src = "https://raw.githubusercontent.com/Huzunian/Blooket-Cheats/main/obfuscated/gui.js";document.body.appendChild(bcjsEXEC);}
+function bcjsMobileGui() {bcjsEXEC = document.createElement("script");bcjsEXEC.type = "text/javascript";bcjsEXEC.src = "https://raw.githubusercontent.com/Huzunian/Blooket-Cheats/main/obfuscated/mobileGui.js";document.body.appendChild(bcjsEXEC);}
+function bcjsGetDailyRewards() {bcjsEXEC = document.createElement("script");bcjsEXEC.type = "text/javascript";bcjsEXEC.src = "https://raw.githubusercontent.com/Huzunian/Blooket-Cheats/main/obfuscated/global/getDailyRewards.js";document.body.appendChild(bcjsEXEC);}
+function bcjsEveryAnswerCorrect() {bcjsEXEC = document.createElement("script");bcjsEXEC.type = "text/javascript";bcjsEXEC.src = "https://raw.githubusercontent.com/Huzunian/Blooket-Cheats/main/obfuscated/global/everyAnswerCorrect.js";document.body.appendChild(bcjsEXEC);}
+
+// Loading Finished
+
+console.log('Done!');console.log('Type bcjsHelp() for help!');
 
