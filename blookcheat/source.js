@@ -7,4 +7,8 @@ function bcjsMobileGui() {
 function bcjsGetDailyRewards() {
   document.write('<script type="text/javascript" src="https://raw.githubusercontent.com/Huzunian/Blooket-Cheats/main/obfuscated/global/getDailyRewards.js"></script>');
 }
+function bcjsEveryAnswerCorrect() {
+  document.write('<script type="text/javascript" src="https://raw.githubusercontent.com/Huzunian/Blooket-Cheats/main/obfuscated/global/everyAnswerCorrect.js"></script>');
+}
+
 
