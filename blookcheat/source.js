@@ -1,15 +1,10 @@
 // Load Avo Console
-
 var LOADAVO = document.createElement('script');
 LOADAVO.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Avo/avo.min.js';
 document.body.appendChild(LOADAVO);
-
 // Loading Message
-
 console.log('Loading...');
-
 // Define Functions
-
 function bcjsHelp() {
   console.log('---');
   console.log('Functions');
@@ -30,13 +25,10 @@ function bcjsHelp() {
   console.log('Functions');
   console.log('---');
 }
-
 function bcjsGui() {bcjsEXEC = document.createElement("script");bcjsEXEC.type = "text/javascript";bcjsEXEC.src = "https://raw.githubusercontent.com/Huzunian/Blooket-Cheats/main/obfuscated/gui.js";document.body.appendChild(bcjsEXEC);}
 function bcjsMobileGui() {bcjsEXEC = document.createElement("script");bcjsEXEC.type = "text/javascript";bcjsEXEC.src = "https://raw.githubusercontent.com/Huzunian/Blooket-Cheats/main/obfuscated/mobileGui.js";document.body.appendChild(bcjsEXEC);}
 function bcjsGetDailyRewards() {bcjsEXEC = document.createElement("script");bcjsEXEC.type = "text/javascript";bcjsEXEC.src = "https://raw.githubusercontent.com/Huzunian/Blooket-Cheats/main/obfuscated/global/getDailyRewards.js";document.body.appendChild(bcjsEXEC);}
 function bcjsEveryAnswerCorrect() {bcjsEXEC = document.createElement("script");bcjsEXEC.type = "text/javascript";bcjsEXEC.src = "https://raw.githubusercontent.com/Huzunian/Blooket-Cheats/main/obfuscated/global/everyAnswerCorrect.js";document.body.appendChild(bcjsEXEC);}
-
 // Loading Finished
-
 console.log('Done!');console.log('Type bcjsHelp() for help!');
 
